@@ -1,0 +1,17 @@
+.questionBody {
+    flex-direction: row;
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+
+    &__img {
+        flex: none;
+        margin-top: 20px;
+    }
+
+    &__body {
+        flex-direction: column;
+        flex: 1;
+        margin-left: 10px;
+        line-height: 2rem;
+    }
+}
